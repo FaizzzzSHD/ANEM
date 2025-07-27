@@ -1,6 +1,7 @@
 from keep_alive import keep_alive
 keep_alive()
-
+send_email()
+send_telegram()
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
